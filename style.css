@@ -1,0 +1,81 @@
+/* common code  */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+</style>
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: auto;
+    width: 1340px;
+}
+:root {
+    --color: #FF5400;
+}
+/* header start  */
+/* header{
+    width: 1340px;
+    height: auto;
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-title{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    display: flex;
+}
+.nav-title img{
+    width: 48px;
+    height: 48px;
+    margin-top: 44px;
+    margin-left: 135px
+
+}
+.nav-title span{
+    color: var(--color);
+}
+nav ul{
+    display: flex;
+    margin-right: 127px;
+}
+nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #424247;
+    font-weight: 400;
+    margin-left: 2.8rem;
+}
+
+.header{
+    background-image: url("./Images/Group 13 (1) (1).png");
+    width: 68rem;
+    height: 30rem;
+    margin-left: 135px;
+}
+.header-sec h2{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 106px;
+}
+.header-sec p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn{
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+}
+.btn1{
+
+}
