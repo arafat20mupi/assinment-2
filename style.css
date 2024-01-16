@@ -37,6 +37,9 @@ nav {
     margin-left: 135px
 
 }
+.nav-title h3{
+    margin-left: 20px;
+}
 .nav-title span{
     color: var(--color);
 }
@@ -55,6 +58,7 @@ nav ul li {
 section{
     margin-left: 135px;
     margin-right: 135px;
+    margin-top: 100px;
 }
 .header{
     background-image: url("./Images/Group 13 (1) (1).png");
@@ -84,6 +88,7 @@ section{
     justify-content: center;
     margin-top: 48px;
 }
+
 .btn1{
     width: 174px;
     height: 52px;
@@ -128,6 +133,9 @@ section{
 .our{
     border: 1px solid #fff;
     margin-left: 24px
+}
+.our h3{
+    margin-left: 0;
 }
 .images-des h3{
     color: #131318;
@@ -188,7 +196,7 @@ section{
     font-size: 2.5rem;
     font-weight: 800;
 }
-.why-box i{
+.why-box img{
     width: 64px;
     height: 64px;
 }
@@ -214,6 +222,204 @@ section{
     margin-top: 24px;
 }
 
+
+
+/* deal and descounts  */
+.nibba h3{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.nibba p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.group-pic{
+    background-image: url(./Images/Group\ 39.png);
+    width: 68rem;
+    height: 30rem
+}
+.group-pic > div{
+    margin-top: 50px;
+}
+.night{
+    width: 450px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 500px;
+    padding: 50px;
+    transform: translateY(50px);
+}
 .day{
+    display: flexbox;
+}
+.day img{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+.night p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 75px;
+}
+.night h5{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.night2{
+    background-image: url(./Images/Group\ 40.png);
+}
+.night21{
+    margin-left: 50px;
+    transform: translateY(50px)
+}
+.btn3{
+    width: 201px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-left: 45%;
+    margin-top: 20px
+}
+
+.simple{
     display: flex;
+    gap: 30px;
+}
+.simple h3{
+    color: #131318;
+    font-size: 2.50rem;
+    font-weight: 800;
+}
+.simple p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.simple ul{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+.simple-class{
+    border-left: 10px;
+}
+.simple-img img{
+    position: relative;
+}
+.simple-img h5{
+    position: absolute;
+    color: #d62424;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    top: 125px;
+    left: 110px;
+
+}
+/* news section  */
+.news{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.news11{
+    padding: 20px;
+}
+.news h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.news input{
+    width: 393px;
+    height: 52px;
+    margin-top: 16px;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+}
+.btn4{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.newsletter{
+    position: relative;
+}
+.newsletter h3{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}
+.newsletter h2{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.newsletter_discount {
+    border-radius: 16px;
+    color: #fff;
+    background-color: #FF5400;
+    position: absolute;
+    transform: rotate(-20deg) translate(426px, -26px) scaleX(1) scaleY(0.75);
+    padding: 0 25px;
+}
+footer{
+    width: 1240px;
+    height: auto;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer-title h3{
+    margin-top: 100px;
+}
+.footer-title{
+    display: flex;
+    color:#131318;
+    font-size: 32px;
+    font-weight: 800;
+    justify-content: center;
+}
+.footer-title img{
+    width: 48px;
+    height: 48px;
+    margin-top: 100px;
+}
+footer p{
+    margin-bottom: 35px;
+    margin-top: -25px;
+}
+footer img{
+    margin-bottom: 50px;
+}
+footer h4{
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
